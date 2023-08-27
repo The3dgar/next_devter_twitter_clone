@@ -1,0 +1,2 @@
+export { addPost } from './addPost';
+
