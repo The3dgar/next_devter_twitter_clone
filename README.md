@@ -19,3 +19,9 @@ check __.env.template__ to __.env.local__
 ## tutorial 
 
 - youtube ``` https://www.youtube.com/watch?v=V_kD2q_aoy8 ```
+
+## get types from supabase
+
+- npx supabase gen types typescript --project-id projectId* > ./src/app/types/types.ts
+
+- projectId: from General settings on supabase 
